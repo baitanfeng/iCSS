@@ -1,0 +1,58 @@
+@dark-color: #727382;
+
+// margin
+.i-mt-5 {
+  margin-top: 5px;
+}
+
+.i-mr-5 {
+  margin-right: 5px;
+}
+
+.i-mb-5 {
+  margin-bottom: 5px;
+}
+
+.i-ml-5 {
+  margin-left: 5px;
+}
+
+.i-arrow {
+  border: 4px solid transparent;
+
+  &-up {
+    border-top: none;
+    border-bottom-color: @dark-color;
+
+    &.checked {
+      border-bottom-color: currentColor;
+    }
+  }
+
+  &-right {
+    border-right: none;
+    border-left-color: @dark-color;
+
+    &.checked {
+      border-left-color: currentColor;
+    }
+  }
+
+  &-down {
+    border-bottom: none;
+    border-top-color: @dark-color;
+
+    &.checked {
+      border-top-color: currentColor;
+    }
+  }
+
+  &-left {
+    border-left: none;
+    border-right-color: @dark-color;
+
+    &.checked {
+      border-right-color: currentColor;
+    }
+  }
+}
